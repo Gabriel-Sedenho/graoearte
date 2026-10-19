@@ -1,0 +1,28 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    z-index: 1000;
+    backdrop-filter: blur(12px);
+    background-color: var(--color-header-bg);
+    color: var(--color-header-text)
+}
+
+.header__brand {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo {
+    font-weight: 700;
+    color: var(--color-header-text);
+}
+
+.nav__list {
+    display: flex;
+}
