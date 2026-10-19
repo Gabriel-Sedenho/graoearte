@@ -56,9 +56,36 @@
 }
 
 .section-coffe {
+    background-color: var(--color-bg-main);
     height: 100vh;
     min-height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.section-coffe__container {
+    font-family: var(--font-main);
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.section-coffe__title {
+    font-size: var(--font-size-xl);
+    color: var(--color-text-title);
+    margin-bottom: 15px;
+}
+
+.section-coffe__text {
+    font-family: var(--color-text-body);
+    margin-bottom: 15px;
+    font-size: var(--font-size-base);
+}
+
+.section-coffe__card-title {
+    font-family: var(--font-title);
+    font-size: var(--font-size-lg);
 }
