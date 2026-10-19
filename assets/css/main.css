@@ -1,10 +1,12 @@
 @import url(./variables.css);
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
 
 .header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
+    height: 10%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -12,7 +14,7 @@
     z-index: 1000;
     backdrop-filter: blur(12px);
     background-color: var(--color-header-bg);
-    color: var(--color-header-text)
+    color: var(--color-header-text);
 }
 
 .header__brand {
@@ -21,10 +23,34 @@
 }
 
 .header__logo {
+    font-size: var(--font-size-base);
     font-weight: 700;
-    color: var(--color-header-text);
+    font-family: var(--font-title);
 }
 
 .nav__list {
     display: flex;
+}
+
+.nav__item {
+    display: flex;
+}
+
+.nav__link {
+    color: var(--color-header-text);
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+    padding: 10px 18px;
+    border-radius: var(--radius-sm);
+    position: relative;
+    background-color: transparent;
+    transition: color 0.3s ease, background-color 0.3s ease, transform 0.2s ease;
+}
+
+.nav__link:hover,
+.nav__link:focus {
+    background-color: var(--color-primary);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-hover);
 }
