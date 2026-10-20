@@ -55,7 +55,7 @@
     box-shadow: var(--shadow-hover);
 }
 
-.section-menu {
+.section-inicio {
     background-color: var(--color-bg-main);
     height: 100vh;
     min-height: 500px;
@@ -64,7 +64,7 @@
     justify-content: center;
 }
 
-.section-coffe__container {
+.section-inicio__container {
     font-family: var(--font-main);
     display: flex;
     align-items: center;
@@ -73,25 +73,70 @@
     max-width: 1200px;
 }
 
-.section-coffe__title {
+.section-inicio__title {
     font-size: var(--font-size-xl);
     color: var(--color-text-title);
     margin-bottom: 15px;
 }
 
-.section-coffe__text {
+.section-inicio__text {
     font-family: var(--color-text-body);
     margin-bottom: 15px;
     font-size: var(--font-size-base);
 }
 
-.section-coffe__card-title {
-    font-family: var(--font-title);
-    font-size: var(--font-size-lg);
-}
-
-.faq {
+.section-graos {
+    display: flex;
+    background-color: var(--color-bg-main);
     height: 100vh;
+    min-height: 500px;
     align-items: center;
     justify-content: center;
+}
+
+.section-graos__title {
+    font-family: var(--font-title);
+    font-size: var(--font-size-xl);
+    color: var(--color-text-title);
+    margin-bottom: 15px;
+}
+.section-graos__container {
+    display: flexbox;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section-graos__card {
+    border: black solid;
+}
+
+.section-processo {
+    background-color: var(--color-bg-main);
+    height: 100vh;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-processo__container {
+    font-family: var(--font-main);
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    width: 500px;
+    max-width: 1200px;
+    border: solid 2px var(--color-border);
+}
+
+.section-processo__title {
+    font-size: var(--font-size-xl);
+    color: var(--color-text-title);
+    margin-bottom: 15px;
+}
+
+.section-processo__text {
+    font-family: var(--color-text-body);
+    margin-bottom: 15px;
+    font-size: var(--font-size-base);
 }
