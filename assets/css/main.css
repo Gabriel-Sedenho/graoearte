@@ -89,3 +89,9 @@
     font-family: var(--font-title);
     font-size: var(--font-size-lg);
 }
+
+.faq {
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
