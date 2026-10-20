@@ -99,6 +99,7 @@ body {
 }
 
 .section-graos__title {
+    display: flex;
     font-family: var(--font-title);
     font-size: var(--font-size-xl);
     color: var(--color-text-title);
@@ -113,9 +114,9 @@ body {
 }
 
 .section-graos__card {
+    display: flex;
     width: 250px;
     height: 200px;
-    display: flex;
     margin-bottom: 15px;
     border: solid var(--color-border) 1px;
     border-radius: 20px;
@@ -131,7 +132,6 @@ body {
 }
 
 .section-processo__container {
-    font-family: var(--font-main);
     display: flex;
     align-self: center;
     justify-self: center;
@@ -150,19 +150,38 @@ body {
 }
 
 .section-processo__container-text {
-    margin: 20px;
+font-family: var(--font-main);
+margin: 20px;
 }
 
 .section-assinatura {
-    
+    background-color: var(--color-bg-main);
+    height: 100vh;
+    min-height: 500px;
 }
 
+.section-assinatura__title {
+    display: flex;
+    font-family: var(--font-title);
+    font-size: var(--font-size-xl);
+    color: var(--color-text-title);
+    margin-bottom: 15px;
+    justify-self: center;
+    align-self: center;
+}
+.section-assinatura__container {
+    align-items: center;
+    justify-content: space-around;
+}
 
-
-
-
-
-
+.section-assinatura__card {
+    display: flex;
+    width: 250px;
+    height: 200px;
+    margin-bottom: 15px;
+    border: solid var(--color-border) 1px;
+    border-radius: 20px;
+}
 
 
 
