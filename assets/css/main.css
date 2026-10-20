@@ -37,6 +37,7 @@
 }
 
 .nav__link {
+    text-decoration: none;
     font-family: var(--font-main);
     color: var(--color-header-text);
     font-size: var(--font-size-sm);
@@ -87,12 +88,9 @@
 }
 
 .section-graos {
-    display: flex;
     background-color: var(--color-bg-main);
     height: 100vh;
     min-height: 500px;
-    align-items: center;
-    justify-content: center;
 }
 
 .section-graos__title {
@@ -100,11 +98,11 @@
     font-size: var(--font-size-xl);
     color: var(--color-text-title);
     margin-bottom: 15px;
+    justify-content: center;
+    align-items: center;
 }
 .section-graos__container {
-    display: flexbox;
-    align-items: center;
-    justify-content: space-around;
+    display: flex;
 }
 
 .section-graos__card {
@@ -141,4 +139,23 @@
 
 .section-processo__container-text {
     margin: 20px;
+}
+
+.whats {
+    width: 200px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: rgb(95, 204, 74);
+    border: 2px solid #fff;
+    box-shadow: 1px 2px 2px #fff;
+    position: fixed;
+    right: 60px;
+    bottom: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-main);
+    font-weight: 1000;
+    color: white;
+    text-decoration: none;
 }
